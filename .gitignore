@@ -1,0 +1,17 @@
+# Arquivos de compilação do Elixir
+/_build/
+/deps/
+/cover/
+
+# Arquivo de persistência local
+contacts.json
+
+# Arquivos de log e temporários
+erl_crash.dump
+*.beam
+*.ez
+
+# Configurações de editores e SO
+.elixir_ls/
+.vscode/
+.DS_Store
