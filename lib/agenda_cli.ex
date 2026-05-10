@@ -1,6 +1,6 @@
 defmodule AgendaCli do
   def main(_args) do
-    # Banner inicial no estilo do professor
+    # Banner inicial
     IO.puts("""
     --- Agenda Elixir CLI ---
     Comandos: add, list, search, edit, del, show, exit
@@ -82,7 +82,7 @@ defmodule AgendaCli do
     end
   end
 
-  # --- O "INTERPRETADOR" (Parser) no estilo do professor ---
+  # --- O "INTERPRETADOR" (Parser) ---
 
   defp parse("exit"), do: :exit
   defp parse("list"), do: :list
